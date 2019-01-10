@@ -6,5 +6,11 @@
     "yarn": "1.10.1"
   },
   "main": "index.js",
-  "license": "MIT"
+  "scripts": {
+    "test": "testcafe --concurrency 1 \"${BROWSER:-chrome}\" 'test/**/*.browser.js'"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "testcafe": "^0.23.3"
+  }
 }
