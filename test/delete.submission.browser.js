@@ -12,8 +12,8 @@ const wait = minutes => new Promise(
 )
 
 f
-  .before(async () => await wait(5)) // minutes
-  .beforeEach(async () => await Promise.resolve())
+  .before(async () => await wait(5))
+  .beforeEach(async () => await wait(2))
   .afterEach(async () => await Promise.resolve())
 
 test('Navigate to Google', async t => {
