@@ -1,4 +1,4 @@
-const f = fixture('Navigate')
+const f = fixture('Second')
 
 const wait = minutes => new Promise(
   (resolve, reject) => {
