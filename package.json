@@ -1,6 +1,10 @@
 {
   "name": "testcafe-bug",
   "version": "1.0.0",
+  "engines": {
+    "node": "^8.9.4",
+    "yarn": "1.10.1"
+  },
   "main": "index.js",
   "license": "MIT"
 }
